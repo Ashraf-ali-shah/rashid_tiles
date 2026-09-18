@@ -5,9 +5,7 @@ import { C, fontDisplay } from "../theme";
 import TileDivider from "./TileDivider";
 import { faqEyebrow, faqItems } from "../data/faqData";
 
-/* ------------------------------------------------------------------ */
-/*  FAQ — accordion animation + subtle hover tint on each question row. */
-/* ------------------------------------------------------------------ */
+
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState(0);
 

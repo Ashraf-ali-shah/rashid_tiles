@@ -3,11 +3,8 @@ import { motion } from "framer-motion";
 import { C, fontDisplay } from "../theme";
 import TileDivider from "./TileDivider";
 import { servicesEyebrow, servicesTitle, servicesItems } from "../data/servicesData";
-
-/* ------------------------------------------------------------------ */
-/*  SERVICES GRID — cards fade up on scroll (staggered) + hover lift.   */
-/*  Accepts an optional `limit` to show fewer cards (used on Home).     */
-/* ------------------------------------------------------------------ */
+import  { img1, img2, img3, img4, img5, img6 } from '../data/imgs.js'
+let imgs=[img1, img2, img3, img4, img5, img6]
 
 const grid = {
   hidden: {},
@@ -54,7 +51,7 @@ export default function ServicesGrid({ limit, showHeading = true, sectionId = "s
               style={{ background: C.surface, borderColor: C.line }}
             >
               <img
-                src={`https://picsum.photos/seed/${s.imageSeed}/160/160`}
+                src={imgs[i]}
                 alt={s.title}
                 className="w-16 h-16 rounded-2xl object-cover shrink-0"
               />
