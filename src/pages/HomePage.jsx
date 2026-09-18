@@ -10,6 +10,7 @@ import CTASection from "../components/CTASection";
 import Footer from "../components/Footer";
 import FloatingContact from "../components/FloatingContact";
 import VideoGallery from "../components/VideoGallery";
+import PalaceGallery from "../components/PalaceGallery";
 
 
 export default function HomePage() {
@@ -18,6 +19,7 @@ export default function HomePage() {
       <Navbar />
       <Hero />
       <AboutTeaser />
+      <PalaceGallery></PalaceGallery>
       <ServicesGrid limit={6} />
       <WhyUs />
       <VideoGallery></VideoGallery>
