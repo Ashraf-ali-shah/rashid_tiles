@@ -6,9 +6,7 @@ import Footer from "../components/Footer";
 import FloatingContact from "../components/FloatingContact";
 import { contactBanner } from "../data/pageBannersData";
 
-/* ------------------------------------------------------------------ */
-/*  CONTACT PAGE — v2                                                   */
-/* ------------------------------------------------------------------ */
+
 export default function ContactPage() {
   return (
     <div>

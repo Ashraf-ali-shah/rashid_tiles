@@ -11,9 +11,7 @@ import Footer from "../components/Footer";
 import FloatingContact from "../components/FloatingContact";
 import VideoGallery from "../components/VideoGallery";
 
-/* ------------------------------------------------------------------ */
-/*  HOME PAGE — v2                                                      */
-/* ------------------------------------------------------------------ */
+
 export default function HomePage() {
   return (
     <div>

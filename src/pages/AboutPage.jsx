@@ -9,9 +9,7 @@ import Footer from "../components/Footer";
 import FloatingContact from "../components/FloatingContact";
 import { aboutBanner } from "../data/pageBannersData";
 
-/* ------------------------------------------------------------------ */
-/*  ABOUT PAGE — v2                                                     */
-/* ------------------------------------------------------------------ */
+
 export default function AboutPage() {
   return (
     <div>

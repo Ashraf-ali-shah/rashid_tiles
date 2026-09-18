@@ -9,9 +9,7 @@ import FloatingContact from "../components/FloatingContact";
 import { servicesBanner } from "../data/pageBannersData";
 import { C } from "../theme";
 
-/* ------------------------------------------------------------------ */
-/*  SERVICES PAGE — v2                                                  */
-/* ------------------------------------------------------------------ */
+
 export default function ServicesPage() {
   return (
     <div>

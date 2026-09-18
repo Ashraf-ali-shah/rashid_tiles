@@ -1,7 +1,4 @@
-/* ------------------------------------------------------------------ */
-/*  THEME v2 — "Emerald & Copper" design direction                     */
-/*  Same business (Almas Tiles), new palette/fonts/layout.             */
-/* ------------------------------------------------------------------ */
+
 
 export const C = {
   bg: "#faf8f4",         // warm marble-white — default page background
@@ -13,7 +10,7 @@ export const C = {
   emerald: "#1f4d3d",    // primary brand accent
   emeraldSoft: "#2d6a4f",// lighter emerald (hovers/gradients)
   dark: "#12261f",       // deep emerald-black — footer only
-  copper: "#b5651d",     // secondary accent — CTAs
+  copper: "#b5651d",     
   copperSoft: "#d17f34",
 };
 

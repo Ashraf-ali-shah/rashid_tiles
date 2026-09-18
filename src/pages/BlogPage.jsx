@@ -9,11 +9,6 @@ import FloatingContact from "../components/FloatingContact";
 import { blogBanner } from "../data/pageBannersData";
 import { blogPosts } from "../data/blogData";
 
-/* ------------------------------------------------------------------ */
-/*  BLOG PAGE — v2                                                      */
-/*  Includes Navbar/Footer this time (App.jsx now handles routing, so   */
-/*  a persistent nav makes sense). 12 posts, 4 per page, pagination.    */
-/* ------------------------------------------------------------------ */
 const PAGE_SIZE = 4;
 
 export default function BlogPage() {

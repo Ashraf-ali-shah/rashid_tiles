@@ -37,6 +37,7 @@ export default function CTASection() {
         </MotionNavLink>
         <motion.a
           href={BUSINESS.whatsappHref}
+          target="_blank"
           whileHover={{ scale: 1.05, backgroundColor: "rgba(255,255,255,0.1)" }}
           whileTap={{ scale: 0.96 }}
           transition={{ duration: 0.15 }}

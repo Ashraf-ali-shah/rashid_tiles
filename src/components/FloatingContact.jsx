@@ -42,6 +42,7 @@ export default function FloatingContact() {
 
       <motion.a
         href={floatingContact.phoneHref}
+        target="_blank"
         aria-label={floatingContact.phoneLabel}
         whileHover={{ scale: 1.12 }}
         whileTap={{ scale: 0.94 }}

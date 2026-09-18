@@ -7,12 +7,7 @@ import Footer from "../components/Footer";
 import FloatingContact from "../components/FloatingContact";
 import { blogPosts } from "../data/blogData";
 
-/* ------------------------------------------------------------------ */
-/*  BLOG DETAIL PAGE — v3                                               */
-/*  Slug now comes from react-router-dom's useParams() (route is        */
-/*  "/blog/:slug" in App.js) instead of a prop. No Prev/Next article    */
-/*  navigation — just one <NavLink> back to the blog listing.           */
-/* ------------------------------------------------------------------ */
+
 export default function BlogDetailPage() {
   const { slug } = useParams();
   const post = blogPosts.find((p) => p.slug === slug) || blogPosts[0];

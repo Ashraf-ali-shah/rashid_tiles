@@ -5,10 +5,7 @@ import { C, fontDisplay, BUSINESS } from "../theme";
 import { WhatsAppIcon } from "./SocialIcons";
 import { contact, map, directContact } from "../data/contactData";
 
-/* ------------------------------------------------------------------ */
-/*  CONTACT FORM — form/map fade up on scroll, submit button and        */
-/*  direct-contact buttons get hover/tap.                               */
-/* ------------------------------------------------------------------ */
+
 export default function ContactForm() {
   const [sent, setSent] = useState(false);
   const [error,setError]=useState(false)
@@ -102,6 +99,7 @@ export default function ContactForm() {
           <motion.a
           dir="ltr"
             href={BUSINESS.phoneHref}
+            target="_blank"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.96 }}
             transition={{ duration: 0.15 }}
@@ -112,6 +110,7 @@ export default function ContactForm() {
           </motion.a>
           <motion.a
             href={BUSINESS.whatsappHref}
+            target="_blank"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.96 }}
             transition={{ duration: 0.15 }}

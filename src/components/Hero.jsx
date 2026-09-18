@@ -68,7 +68,8 @@ export default function Hero() {
             {hero.primaryLabel} <ArrowLeft size={16} />
           </MotionNavLink>
           <motion.a
-            href="https://wa.me/966532503564"
+            href="https://wa.me/966590145501"
+            target="_blank"
             whileHover={{ scale: 1.05, backgroundColor: "rgba(255,255,255,0.1)" }}
             whileTap={{ scale: 0.96 }}
             transition={{ duration: 0.15 }}
