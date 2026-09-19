@@ -19,7 +19,7 @@ export default function PalaceGallery() {
         <TileDivider />
 
         <motion.div
-          className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-12"
+          className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-12"
           variants={grid}
           initial="hidden"
           whileInView="show"
