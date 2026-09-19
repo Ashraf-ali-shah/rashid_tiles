@@ -1,12 +1,8 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { C, fontDisplay } from "../theme";
 import TileDivider from "./TileDivider";
 import { gallery } from "../data/aboutData";
 
-/* ------------------------------------------------------------------ */
-/*  PALACE GALLERY — images fade up staggered + slight zoom on hover.   */
-/* ------------------------------------------------------------------ */
 const grid = { hidden: {}, show: { transition: { staggerChildren: 0.06 } } };
 const item = { hidden: { opacity: 0, y: 18 }, show: { opacity: 1, y: 0, transition: { duration: 0.35, ease: "easeOut" } } };
 

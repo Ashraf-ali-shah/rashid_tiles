@@ -3,8 +3,9 @@ import { motion } from "framer-motion";
 import { C, fontDisplay } from "../theme";
 import TileDivider from "./TileDivider";
 import { servicesEyebrow, servicesTitle, servicesItems } from "../data/servicesData";
-import  { img1, img2, img3, img4, img5, img6 } from '../data/imgs.js'
-let imgs=[img1, img2, img3, img4, img5, img6]
+import  { img1, img2, img3, img4, img5, img6,img7, img8, img9 } from '../data/imgs.js'
+
+let imgs=[img1, img2, img3, img4, img5, img6, img7,img8, img9]
 
 const grid = {
   hidden: {},

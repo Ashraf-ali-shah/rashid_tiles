@@ -15,7 +15,7 @@ export default function ServicesPage() {
     <div>
       <Navbar />
       <PageBanner {...servicesBanner} />
-      <ServicesGrid showHeading={false} bg={C.bg} />
+      <ServicesGrid  showHeading={false} bg={C.bg} />
       <FAQ />
       <CTASection />
       <Footer />
