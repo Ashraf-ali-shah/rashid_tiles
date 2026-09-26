@@ -1,5 +1,5 @@
-import  { img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11 } from '../data/imgs.js'
-const imgs=[img1,img2,img3,img8,img7,img11]
+import  { img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11,img12 } from '../data/imgs.js'
+const imgs=[img1,img2,img3,img8,img7,img11,img5,img12,img9]
 export const aboutStory = {
   eyebrow: "كيف بدأنا",
   title: "من عامل جلي واحد إلى فريق كامل",
@@ -10,7 +10,7 @@ export const aboutStory = {
   ],
   images: [
     { src: img1, alt: "فني يعمل على تلميع أرضية رخامية" },
-    { src: img2, alt: "أرضية رخام بعد الانتهاء من التلميع" },
+    { src: img10, alt: "أرضية رخام بعد الانتهاء من التلميع" },
   ],
 };
 
@@ -46,7 +46,7 @@ export const stats = [
 export const gallery = {
   eyebrow: "من أرشيف مشاريعنا",
   title: "نماذج حقيقية من أعمال منجزة",
-  images: Array.from({ length: 6 }).map((_, i) => ({
+  images: Array.from({ length: 9 }).map((_, i) => ({
     src: imgs[i],
     alt: `صورة من مشروع تلميع رخام رقم ${i + 1}`,
   })),
