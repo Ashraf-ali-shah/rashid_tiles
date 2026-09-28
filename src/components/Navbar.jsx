@@ -17,6 +17,12 @@ export default function Navbar() {
     color: isActive ? C.copperSoft : "#eaf2ee",
     fontWeight: isActive ? 800 : 400,
   });
+  const handleClick=()=>{
+    window.scrollTo({
+      top:0,
+      behavior:'smooth'
+    })
+  }
 
   return (
     <header className="sticky top-0 z-50" dir="rtl" style={{ background: C.dark }}>
@@ -38,7 +44,7 @@ export default function Navbar() {
 
         <nav className="hidden lg:flex items-center gap-8">
           {navItems.map((item) => (
-            <NavLink key={item.label} to={item.to} end={item.to === "/"} className="text-sm transition-colors" style={linkStyle}>
+            <NavLink onClick={handleClick} key={item.label} to={item.to} end={item.to === "/"} className="text-sm transition-colors" style={linkStyle}>
               {item.label}
             </NavLink>
           ))}
@@ -65,7 +71,7 @@ export default function Navbar() {
       {menuOpen && (
         <div className="lg:hidden px-5 pb-5 flex flex-col gap-4" style={{ background: C.dark, borderTop: "1px solid #1e352c" }}>
           {navItems.map((item) => (
-            <NavLink key={item.label} to={item.to} end={item.to === "/"} style={linkStyle} onClick={() => setMenuOpen(false)}>
+            <NavLink onClick={handleClick} key={item.label} to={item.to} end={item.to === "/"} style={linkStyle} onClick={() => setMenuOpen(false)}>
               {item.label}
             </NavLink>
           ))}
