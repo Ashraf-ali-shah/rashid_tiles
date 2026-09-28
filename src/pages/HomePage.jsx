@@ -1,4 +1,5 @@
 import React from "react";
+import Seo from "../components/Seo";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import AboutTeaser from "../components/AboutTeaser";
@@ -16,6 +17,11 @@ import PalaceGallery from "../components/PalaceGallery";
 export default function HomePage() {
   return (
     <div>
+      <Seo
+        title=" رشيد تائلز | تلميع وترميم الرخام والبلاط في الرياض"
+        description="رشيد تائلز متخصصون في جلي وتلميع وترميم الرخام والبلاط في الرياض للفلل والقصور والمنشآت التجارية. معاينة مجانية وأسعار واضحة."
+        path="/"
+      />
       <Navbar />
       <Hero />
       <AboutTeaser />

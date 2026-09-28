@@ -1,4 +1,5 @@
 import React from "react";
+import Seo from "../components/Seo";
 import { useParams, NavLink } from "react-router-dom";
 import { ChevronLeft, Calendar, Clock, User } from "lucide-react";
 import { C, fontDisplay } from "../theme";
@@ -19,6 +20,11 @@ export default function BlogDetailPage() {
 
   return (
     <div>
+      <Seo
+        title={post.title}
+        description={post.excerpt}
+        path={`/blog/${encodeURIComponent(post.slug)}`}
+      />
       <Navbar />
 
       <section dir="rtl" className="relative overflow-hidden">

@@ -1,4 +1,5 @@
 import React from "react";
+import Seo from "../components/Seo";
 import Navbar from "../components/Navbar";
 import PageBanner from "../components/PageBanner";
 import ServicesGrid from "../components/ServicesGrid";
@@ -13,9 +14,14 @@ import { C } from "../theme";
 export default function ServicesPage() {
   return (
     <div>
+      <Seo
+        title="خدماتنا"
+        description="جلي وتلميع الرخام، تلميع البورسلين والسيراميك، إزالة البقع والعزل، وترميم الأرضيات القديمة في الرياض من رشيد تائلز."
+        path="/services"
+      />
       <Navbar />
       <PageBanner {...servicesBanner} />
-      <ServicesGrid  showHeading={false} bg={C.bg} />
+      <ServicesGrid showHeading={false} bg={C.bg} />
       <FAQ />
       <CTASection />
       <Footer />

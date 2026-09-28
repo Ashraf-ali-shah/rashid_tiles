@@ -1,4 +1,5 @@
 import React from "react";
+import Seo from "../components/Seo";
 import Navbar from "../components/Navbar";
 import PageBanner from "../components/PageBanner";
 import AboutStory from "../components/AboutStory";
@@ -13,6 +14,11 @@ import { aboutBanner } from "../data/pageBannersData";
 export default function AboutPage() {
   return (
     <div>
+      <Seo
+        title="من نحن"
+        description="تعرف على فريق رشيد تائلز وخبرتنا في تلميع وترميم الرخام والبلاط في الرياض، بمعدات حديثة وعمل يتحدث عن نفسه."
+        path="/about"
+      />
       <Navbar />
       <PageBanner {...aboutBanner} />
       <AboutStory />

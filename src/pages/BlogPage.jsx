@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Seo from "../components/Seo";
 import { ChevronRight, ChevronLeft } from "lucide-react";
 import { C } from "../theme";
 import Navbar from "../components/Navbar";
@@ -25,6 +26,11 @@ export default function BlogPage() {
   return (
     <div>
       <Navbar />
+      <Seo
+        title="المدونة"
+        description="نصائح وخبرات ميدانية في العناية بالرخام والبلاط وتلميعها وترميمها، من فريق رشيد تائلز في الرياض."
+        path="/blog"
+      />
       <PageBanner {...blogBanner} />
 
       <section dir="rtl" className="py-16 px-5 md:px-8" style={{ background: C.bg }}>
