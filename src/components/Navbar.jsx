@@ -18,6 +18,7 @@ export default function Navbar() {
     fontWeight: isActive ? 800 : 400,
   });
   const handleClick=()=>{
+    setMenuOpen(false)
     window.scrollTo({
       top:0,
       behavior:'smooth'
@@ -71,7 +72,7 @@ export default function Navbar() {
       {menuOpen && (
         <div className="lg:hidden px-5 pb-5 flex flex-col gap-4" style={{ background: C.dark, borderTop: "1px solid #1e352c" }}>
           {navItems.map((item) => (
-            <NavLink onClick={handleClick} key={item.label} to={item.to} end={item.to === "/"} style={linkStyle} onClick={() => setMenuOpen(false)}>
+            <NavLink  key={item.label} to={item.to} end={item.to === "/"} style={linkStyle} onClick={handleClick}>
               {item.label}
             </NavLink>
           ))}
