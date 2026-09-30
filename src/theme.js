@@ -24,8 +24,8 @@ export const FONT_IMPORT_URL =
 export const BUSINESS = {
   nameAr: "رشيد ٹائلز",
   taglineAr: "بلاط ورخام الرياض",
-  phoneDisplay: "+966537930288",
-  phoneHref: "tel:+966537930288",
+  phoneDisplay: "+966590145501",
+  phoneHref: "tel:+966590145501",
   whatsappHref: "https://wa.me/966590145501",
   address: "الرياض، المملكة العربية السعودية",
 };

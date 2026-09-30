@@ -5,12 +5,7 @@ import { C } from "../theme";
 import { WhatsAppIcon } from "./SocialIcons";
 import { floatingContact } from "../data/floatingContactData";
 
-/* ------------------------------------------------------------------ */
-/*  FLOATING CONTACT BUTTON                                             */
-/*  Closed state has a slow, subtle breathing pulse so it doesn't go    */
-/*  unnoticed on a long page, without being distracting. Sub-buttons    */
-/*  get a hover scale; main button rotates into an × when open.         */
-/* ------------------------------------------------------------------ */
+
 export default function FloatingContact() {
   const [open, setOpen] = useState(false);
 
